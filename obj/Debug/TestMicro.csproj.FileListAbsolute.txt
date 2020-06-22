@@ -1,0 +1,9 @@
+c:\users\пк\documents\visual studio 2012\Projects\TestMicro\TestMicro\bin\Debug\TestMicro.exe.config
+c:\users\пк\documents\visual studio 2012\Projects\TestMicro\TestMicro\obj\Debug\TestMicro.csprojResolveAssemblyReference.cache
+c:\users\пк\documents\visual studio 2012\Projects\TestMicro\TestMicro\obj\Debug\TestMicro.Form1.resources
+c:\users\пк\documents\visual studio 2012\Projects\TestMicro\TestMicro\obj\Debug\TestMicro.Properties.Resources.resources
+c:\users\пк\documents\visual studio 2012\Projects\TestMicro\TestMicro\obj\Debug\TestMicro.csproj.GenerateResource.Cache
+c:\users\пк\documents\visual studio 2012\Projects\TestMicro\TestMicro\bin\Debug\TestMicro.exe
+c:\users\пк\documents\visual studio 2012\Projects\TestMicro\TestMicro\bin\Debug\TestMicro.pdb
+c:\users\пк\documents\visual studio 2012\Projects\TestMicro\TestMicro\obj\Debug\TestMicro.exe
+c:\users\пк\documents\visual studio 2012\Projects\TestMicro\TestMicro\obj\Debug\TestMicro.pdb
