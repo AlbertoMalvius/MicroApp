@@ -19,11 +19,11 @@ namespace TestMicro
 {
     public partial class Form1 : Form
     {
-        // WaveIn - поток для записи
+        //Поток для записи
         WaveIn waveIn;
         //Класс для записи в файл
         WaveFileWriter writer;
-        //Имя файла для записи
+        //Создание временного файла
         string outputFilename = "temp_file.wav";
         //Проверка на запись
         bool record = false;
@@ -84,18 +84,12 @@ namespace TestMicro
             {
                 try
                 {
-                    //MessageBox.Show("Start Recording");
                     waveIn = new WaveIn();
-                    //Дефолтное устройство для записи (если оно имеется)
-                    //встроенный микрофон ноутбука имеет номер 0
                     waveIn.DeviceNumber = 0;
                     //Прикрепляем к событию DataAvailable обработчик, возникающий при наличии записываемых данных
                     waveIn.DataAvailable += waveIn_DataAvailable;
-                    //Прикрепляем обработчик завершения записи
-                    //waveIn.RecordingStopped += new EventHandler(waveIn_RecordingStopped);
-                    //Формат wav-файла - принимает параметры - частоту дискретизации и количество каналов(здесь mono)
+                    //Формат wav-файла
                     waveIn.WaveFormat = new WaveFormat(16000, 1);
-                    //Инициализируем объект WaveFileWriter
                     writer = new WaveFileWriter(outputFilename, waveIn.WaveFormat);
                     //Начало записи
                     waveIn.StartRecording();
